@@ -1,0 +1,1 @@
+cockroach sql --url 'postgres://sunil200228:sunilcse@3000@free-tier8.aws-ap-southeast-1.cockroachlabs.cloud:26257/avionics?sslmode=verify-full&sslrootcert=certs/cc-ca.crt&options=--cluster=avionics-80'

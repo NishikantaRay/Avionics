@@ -1,0 +1,15 @@
+{
+  "name": "avionics",
+  "version": "1.0.0",
+  "description": "A fligt app",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index"
+  },
+  "author": "Sunil Panda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  }
+}
