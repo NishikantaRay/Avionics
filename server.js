@@ -12,8 +12,11 @@ app.get("/auth_config.json", (req, res) => {
   res.sendFile(join(__dirname, "auth_config.json"));
 });
 
-app.get("/*", (_, res) => {
+app.get("/", (_, res) => {
   res.sendFile(join(__dirname, "index.html"));
+});
+app.get("/home.html", (_, res) => {
+  res.sendFile(join(__dirname, "/home.html"));
 });
 
 process.on("SIGINT", function() {

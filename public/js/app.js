@@ -4,24 +4,43 @@ let auth0 = null;
 /**
  * Starts the authentication flow
  */
+
+//  function options(user, context, callback) {
+//   context.redirect_uri = {
+//     url: "http://localhost:3000/home.html"
+//   };
+//   return callback(null, user, context);
+// }
 const login = async (targetUrl) => {
   try {
     console.log("Logging in", targetUrl);
 
     const options = {
       redirect_uri: window.location.origin
+      // redirect_uri: "http://localhost:3000/home.html"
     };
-
+    
     if (targetUrl) {
       options.appState = { targetUrl };
     }
 
     await auth0.loginWithRedirect(options);
+    
   } catch (err) {
     console.log("Log in failed", err);
   }
 };
-
+// const redirect= async ()=> {
+//   const isAuthenticated = await auth0.isAuthenticated();
+//     if(isAuthenticated){
+//       const options_re = {
+//         // redirect_uri: window.location.origin
+//         redirect_uri: "http://localhost:3000/home.html"
+//       };
+//       auth0.loginWithRedirect(options_re);
+//     }
+// }
+// redirect();
 /**
  * Executes the logout flow
  */
@@ -108,11 +127,11 @@ window.onload = async () => {
   const shouldParseResult = query.includes("code=") && query.includes("state=");
 
   if (shouldParseResult) {
-    console.log(shouldParseResult);
+    // console.log(shouldParseResult);
     console.log("> Parsing redirect");
     try {
       const result = await auth0.handleRedirectCallback();
-      console.log(result);
+      // console.log(result);
       if (result.appState && result.appState.targetUrl) {
         showContentFromUrl(result.appState.targetUrl);
       }
