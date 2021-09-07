@@ -1,7 +1,7 @@
 
 # Avionics
 
-A platform for booking flight with a chatbot using skyscanner api ,agora &auth0.
+A platform for booking flights with a chatbot using Skyscanner API, agora &auth0.
 
 ## Logo
 
