@@ -6,16 +6,16 @@ A platform for booking flight with a chatbot using skyscanner api ,agora &auth0.
 ## Logo
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](public/logo.png)
 
     
 ## Demo
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](p1.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](p2.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](p3.png)
 
   
 ## Contributing
@@ -29,12 +29,12 @@ Please adhere to this project's `code of conduct`.
   
 ## Authors
 
-- [@katherinepeterson](https://www.github.com/octokatherine)
+- [@ayushmohanty24](https://github.com/ayushmohanty24)
 
-- [@katherinepeterson](https://www.github.com/octokatherine)
+- [@Sunil200228](https://github.com/Sunil200228)
 
-- [@katherinepeterson](https://www.github.com/octokatherine)
+- [@sumeetweb](https://github.com/sumeetweb)
 
-- [@katherinepeterson](https://www.github.com/octokatherine)
+- [@NishikantaRay](https://github.com/NishikantaRay)
 
     
